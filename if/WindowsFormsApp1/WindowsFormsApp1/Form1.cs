@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-   
+
     public partial class Form1 : Form
     {
-        int number = 10;
+
         public Form1()
         {
             InitializeComponent();
@@ -21,10 +21,21 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if(number == 10)
+            if (checkBox1.Checked == true)
             {
+                label1.Text = "da";
+            }
+            else
+                label1.Text = "net";
 
             }
         }
-    }
-}
+
+        
+
+        }
+    
+
+
+    
+
