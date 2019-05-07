@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,34 +13,25 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-       
+        int number = 10;
+        //10
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        void Button1_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
+            if (number == 10)
             {
-                label1.Text = "Чекнут";
+                label1.Text = "Да";
             }
             else
             {
-                label1.Text = "Чокнут";
-
-                // if (number ==10)
-                // {
-                //     label1.Text = "Da";
-                // }
-                // else
-                // {
-                //     label1.Text = "Net";
-                // }
-
-
+                label1.Text = "Нет";
             }
+            label1.Text = (number == 10 ? "Да" : "Нет");
+        }
         }
     }
-}
