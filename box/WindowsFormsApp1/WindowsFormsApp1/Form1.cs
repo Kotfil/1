@@ -25,6 +25,10 @@ namespace WindowsFormsApp1
             {
                 label1.Text = "Вы выбрали Yes";
             }
+            else
+            {
+                label1.Text = "Вы выбрали Net";
+            }
         }
 
         }
