@@ -17,13 +17,20 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-       void Button1_Click(object sender, EventArgs e)
+        void Button1_Click(object sender, EventArgs e)
         {
-           DialogResult result = MessageBox.Show("Вы уверены?", "Вопрос"
-                , MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
-                if(re)
+            DialogResult result = MessageBox.Show("Вы уверенны?", "Вопрос",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                label1.Text = "Вы выбрали Yes";
+            }
+            else
+            {
+                label1.Text = "Вы выбрали Net";
+            }
+        }
 
         }
     }
-}
+
