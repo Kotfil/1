@@ -20,13 +20,16 @@ namespace WindowsFormsApp1
 
         void Button1_Click(object sender, EventArgs e)
         {
-            label1.Text = Location.ToString();
-
+           if(File.Exists(@"C:\Users\1\Desktop\1.cmd"))
+            {
+                MessageBox.Show("Файл есть", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+            ;
+            }
         }
 
         void Method()
         {
-
+            
         }
     }
 }
