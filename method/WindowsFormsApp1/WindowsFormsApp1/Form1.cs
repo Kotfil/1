@@ -20,24 +20,16 @@ namespace WindowsFormsApp1
 
         void Button1_Click(object sender, EventArgs e)
         {
-            if (File.Exists(@"C:\Users\Fil\Desktop\1.cmd"))
-            {
-                MessageBox.Show("Файл есть', 'Есть ли файл", MessageBoxIcon.Asterisk);
-            }
+            label1.Text = Location.ToString();
 
         }
-        string Method()
-        {
-            return Location.ToString();
-        }
 
-
-
-
-
-        private void Label1_Click(object sender, EventArgs e)
+        void Method()
         {
 
         }
     }
 }
+
+  
+
