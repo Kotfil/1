@@ -22,14 +22,14 @@ namespace WindowsFormsApp1
         {
            if(File.Exists(@"C:\Users\1\Desktop\1.cmd"))
             {
-                MessageBox.Show("Файл есть", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
-            ;
+
+                Method();
             }
         }
 
         void Method()
         {
-            
+            MessageBox.Show("Файл есть", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }
