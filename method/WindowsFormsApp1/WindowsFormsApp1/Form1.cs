@@ -31,6 +31,7 @@ namespace WindowsFormsApp1
                 Method2();
             }
     }
+        //1
         void Method1()
         {
             MessageBox.Show("Файл есть", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
