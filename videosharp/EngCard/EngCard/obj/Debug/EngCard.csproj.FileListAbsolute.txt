@@ -1,0 +1,10 @@
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\bin\Debug\EngCard.exe.config
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\bin\Debug\EngCard.exe
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\bin\Debug\EngCard.pdb
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.csprojAssemblyReference.cache
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.Form1.resources
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.Properties.Resources.resources
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.csproj.GenerateResource.cache
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.csproj.CoreCompileInputs.cache
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.exe
+C:\Users\Fil\git\forms\videosharp\EngCard\EngCard\obj\Debug\EngCard.pdb
