@@ -13,6 +13,8 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        string file1 = @"C:\Users\1\Desktop\1.cmd";
+        string file2 = @"C:\Users\1\Desktop\0.cmd";
         public Form1()
         {
             InitializeComponent();
@@ -20,13 +22,23 @@ namespace WindowsFormsApp1
 
         void Button1_Click(object sender, EventArgs e)
         {
-            label1.Text = Location.ToString();
-
-        }
-
-        void Method()
+            if (File.Exists(file1))
+            {
+                Method1();
+            }
+            else
+            {
+                Method2();
+            }
+    }
+        //1
+        void Method1()
         {
-
+            MessageBox.Show("Файл есть", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
+        void Method2()
+        {
+            MessageBox.Show("Файла нет", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }
